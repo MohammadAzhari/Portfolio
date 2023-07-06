@@ -1,38 +1,38 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { AiFillGithub } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className='footer'>
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col md='4' className='footer-copywright'>
           <h3>+249 92 873 7001</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md='4' className='footer-copywright'>
           <h3>© {year} </h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        <Col md='4' className='footer-body'>
+          <ul className='footer-icons'>
+            <li className='social-icons'>
               <a
-                href="https://github.com/mohammadazhari"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://github.com/mohammadazhari'
+                style={{ color: 'white' }}
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li className='social-icons'>
               <a
-                href="https://linkedin.com/in/mohammad-azhari419486218"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://linkedin.com/in/mohammad-azhari'
+                style={{ color: 'white' }}
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <FaLinkedinIn />
               </a>
